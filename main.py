@@ -211,7 +211,7 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         live_video_blur()
 
-    if sys.argv[1].lower() == '-h':
+    elif sys.argv[1].lower() == '-h':
         help()
         exit()
     elif sys.argv[1].lower() == '-video':
